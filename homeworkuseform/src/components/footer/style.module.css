@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+padding: 35px;
+}
+
+h2{
+  margin-bottom: 40px;
+  font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #9F9F9F;
+
+}
+
+a{
+  font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color:#000000;
+text-decoration: none;
+}
+
+.firstBlockFooter{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.funiro{
+  font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+
+.funiroText{
+  width: 285px;
+  font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #9F9F9F;
+
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formEmail{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.formEmail>form>input{
+width: 173px;
+height: 21px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #9F9F9F;
+
+border-radius: 0;
+border: none;
+border-bottom: 1px solid #000000;
+margin-bottom: 0;
+}
+
+.formEmail>form{
+  padding: 0;
+}
+
+.formEmail>button{
+  width: 75px;
+height: 21px;
+border-radius: 0;
+border: none;
+border-bottom: 1px solid #000000;
+font-family: Poppins;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+background-color: transparent;
+
+}
